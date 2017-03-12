@@ -13,6 +13,22 @@
 		<link rel="stylesheet" href="css/animate.css">
 		<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet" type="text/css">
 		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+		<script>
+			function confirmarBorrar()
+				{
+					if(confirm('Esta seguro de querer BORRAR este registro?'))
+						return true;
+					else
+						return false;
+				}
+			function confirmarModificar()
+				{
+					if(confirm('Esta seguro de querer MODIFICAR este registro?'))
+						return true;
+					else
+						return false;
+				}
+		</script>
 	</head>
 
 	<body>
@@ -63,11 +79,11 @@
 								<?php echo $row['precio_venta'];?>
 							</td>
 							<td>
-								<a href="modificar.php?id_producto=<?php echo $row['id_producto'];?>">
+								<a href="modificar.php?id_producto=<?php echo $row['id_producto'];?>" onclick="return confirmarModificar()">
 									<img src="img/editar.png" width="54" height="54" /><p>Modificar</p></a>
 							</td>
 							<td>
-								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><img src="img/borrar.png" width="54" height="54"><p>Borrar</p></a>
+								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>" onclick="return confirmarBorrar()"><img src="img/borrar.png" width="54" height="54"><p>Borrar</p></a>
 								
 							</td>
 						</tr>
