@@ -4,8 +4,8 @@
 	
 	$id_producto=$_GET['id_producto'];
 	
-	$query="DELETE FROM products WHERE id_producto='$id_producto'";
-	
+	$query="DELETE FROM productos WHERE id_producto='$id_producto'";
+
 	$resultado=$mysqli->query($query);
 	
 ?>
