@@ -7,7 +7,7 @@
 	<head>
 		<title>Productos</title>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="viewport" content="width= device-width, user-scalable= no, initial-scale=1.0,maximum-scale=1.0, minimum-scale=1.0" >
 		<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" href="css/main.css">
 		<link rel="stylesheet" href="css/animate.css">
@@ -67,7 +67,7 @@
 								<img src="img/editar.png" width="54" height="54" />Modificar</a>
 							</td>
 							<td>
-								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><img src="img/borrar.png">Borrar</a>
+								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><img src="img/borrar.png" width="54" height="54">Borrar</a>
 							</td>
 						</tr>
 					<?php } ?>
