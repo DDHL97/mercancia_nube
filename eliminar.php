@@ -2,7 +2,7 @@
 	
 	require('conexion.php');
 	
-	$id=$_GET['id'];
+	$id=$_GET['id_producto'];
 	
 	$query="DELETE FROM products WHERE id='$id'";
 	
