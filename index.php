@@ -64,7 +64,7 @@
 							</td>
 							<td>
 								<a href="modificar.php?id_producto=<?php echo $row['id_producto'];?>">
-									<p><img src="img/editar.png" width="54" height="54" /></p></a>
+									<img src="img/editar.png" width="54" height="54" /><p>Modificar</p></a>
 							</td>
 							<td>
 								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><img src="img/borrar.png" width="54" height="54"></a>
