@@ -33,7 +33,7 @@
 		<a href="nuevo.php">Nuevo producto</a>
 		<p></p>
 		
-		<table border=0 width="80%">
+		<table border=1 width="80%" bodercolor="blue">
 			<thead>
 				<tr>
 					<td><b> Producto </b></td>
@@ -67,7 +67,8 @@
 									<p><img src="img/editar.png" width="54" height="54" /></p></a>
 							</td>
 							<td>
-								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><p><img src="img/borrar.png" width="54" height="54"></p></a>
+								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><img src="img/borrar.png" width="54" height="54"></a>
+								<p></p>
 							</td>
 						</tr>
 					<?php } ?>
