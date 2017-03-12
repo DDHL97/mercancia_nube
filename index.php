@@ -63,11 +63,11 @@
 								<?php echo $row['precio_venta'];?>
 							</td>
 							<td>
-								<p><a href="modificar.php?id_producto=<?php echo $row['id_producto'];?>">
-									<img src="img/editar.png" width="54" height="54" /></a></p>
+								<a href="modificar.php?id_producto=<?php echo $row['id_producto'];?>">
+									<p><img src="img/editar.png" width="54" height="54" /></p></a>
 							</td>
 							<td>
-								<p><a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><img src="img/borrar.png" width="54" height="54"></a></p>
+								<a href="eliminar.php?id_producto=<?php echo $row['id_producto'];?>"><p><img src="img/borrar.png" width="54" height="54"></p></a>
 							</td>
 						</tr>
 					<?php } ?>
