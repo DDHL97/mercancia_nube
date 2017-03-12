@@ -37,7 +37,7 @@
 			
 			<p></p>	
 			
-			<a href="index.php">Regresar</a>
+			<a href="index.php"><img src="img/home.png" class="animated fadeInDown"><p>Regresar</p></a>
 			
 		</center>
 	</body>
