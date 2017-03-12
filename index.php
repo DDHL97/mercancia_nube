@@ -33,7 +33,7 @@
 		<a href="nuevo.php">Nuevo producto</a>
 		<p></p>
 		
-		<table border=1 width="80%" bordercolor="blue">
+		<table border=0 width="80%">
 			<thead>
 				<tr>
 					<td><b> Producto </b></td>
